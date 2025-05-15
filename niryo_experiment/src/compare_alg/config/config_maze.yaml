@@ -1,0 +1,16 @@
+# maze
+
+experiment_config:
+    init_pose: [0.0, 0.6, -1.3, 0.0, 0.0, 0.0]  # initial
+    start_pose: [0.0, -1.57, 1.5, 0.0, 0.0, 0.0] # start
+    goal_pose: [-1.57, -1.57, 1.5, 0.0, 0.0, 0.0] # goal
+    max_planning_time: 10.0
+    planning_attempts: 10
+    max_velocity_scaling_factor: 1.0
+    max_acceleration_scaling_factor: 1.0
+    planner_id: "RRTstarkConfigDefault"
+    dir_name: "/tmp"
+    num_iterations: 50
+    config_file_path: "/root/ws_riku_niryo/src/compare_alg/config/compare_alg_config.yaml"
+    enable_speech: false
+

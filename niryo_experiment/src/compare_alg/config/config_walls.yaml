@@ -1,0 +1,15 @@
+# walls
+
+experiment_config:
+    init_pose: [1.57, -0.97, 0.3, 0.0, -0.9, 0.0]  # initial
+    start_pose: [1.57, -0.97, 0.3, 0.0, -0.9, 0.0] # start
+    goal_pose: [-1.57, -0.97, 0.3, 0.0, -0.9, 0.0] # goal
+    max_planning_time: 10.0
+    planning_attempts: 10
+    max_velocity_scaling_factor: 1.0
+    max_acceleration_scaling_factor: 1.0
+    planner_id: "PRMkConfigDefault"
+    dir_name: "/tmp/walls/PRM_50it"
+    num_iterations: 50
+    config_file_path: "/root/ws_riku_niryo/src/compare_alg/config/compare_alg_config.yaml"
+    enable_speech: false

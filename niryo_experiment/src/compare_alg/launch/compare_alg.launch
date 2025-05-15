@@ -1,0 +1,17 @@
+<!-- This is a launch file for a ROS package that runs two nodes: exec_motion_alg4 and trajectory_logger -->
+<!-- <?xml version="1.0"?> -->
+<launch>
+
+    <!-- Set ROS parameters -->
+    <param name="pose_experiment" value="false" />
+
+    <!-- Run first node -->
+    <node name="trajectory_logger_node" pkg="record_experiment" type="trajectory_logger_node" output="screen">
+    </node>
+
+    <!-- Run second node -->
+    <node name="exec_motion_alg_node" pkg="compare_alg" type="exec_motion_alg_node" output="screen">
+        <rosparam file="$(find compare_alg)/config/compare_alg_config.yaml"/>
+    </node>
+
+</launch>
