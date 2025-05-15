@@ -1,0 +1,19 @@
+# Requirements for the project
+
+# Pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool
+pandas
+# NumPy is the fundamental package for array computing with Python
+numpy
+
+# Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python
+matplotlib
+
+# SciPy is a Python library used for scientific and technical computing
+scipy
+
+# Seaborn is a Python visualization library based on matplotlib
+seaborn
+
+pyyaml
+
+scikit-learn
