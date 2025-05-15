@@ -3,7 +3,8 @@
 This project is focused on **analyzing motion data** to extract meaningful insights. We developed `mylib.analyser` package providing tools and algorithms for processing, visualizing, and interpreting motion-related datasets (saved in **`data`**). By executing the Python program `generate_result.py`, the **same figures** used as experimental results provided in our bachelor thesis *"Comparative Study of Motion Planning Algorithms for Niryo Robotic Arm"* will be generated in the `results` directory.
 
 ## Features
-
+The following figures are generated in the project.
+For each example, we provide the result on test scene `ceiling` with 8 tested algorithms. The same types of figures are generated for all of 6 test scenes in our experiment. The results are saved in the `results/<test-scene-name>` directory.
 - Success rate comparison
 <p align="center">
     <img src="results/ceiling/success_rate.jpg" alt="Success Rate Comparison" width="400"/>
@@ -29,11 +30,14 @@ This project is focused on **analyzing motion data** to extract meaningful insig
     <img src="results/ceiling/path_variance.jpg" alt="Path Variance Comparison" width="400"/>
 </p>
 
-- Visualization of motion trajectories in 2D using PCA
-<p align="center">
+- Visualization of motion trajectories in 2D using PCA (Principal Component Analysis)
+<!-- <p align="center">
     <img src="results/ceiling/pca_trajectory_scatter.jpg" alt="PCA 2D Visualization" width="400"/>
     <img src="results/ceiling/pca_trajectory.jpg" alt="PCA 2D Visualization" width="400"/>
-</p>
+</p> -->
+
+| ![PCA 2D Visualization](results/ceiling/pca_trajectory_scatter.jpg)<br>**Trajectories Represented as 2D Dots** | ![PCA 2D Visualization](results/ceiling/pca_trajectory.jpg)<br>**Trajectories Represented as 2D Lines** |
+|:--:|:--:|
 
 - Joint trajectories plot
     Find `results/<test-scene-name>/joint_trajectory`.

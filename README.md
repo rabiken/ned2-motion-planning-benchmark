@@ -22,48 +22,22 @@ This project is a **key component** of the thesis. It involves conducting quanti
 
 ### 2. [`motion_analysis`](motion_analysis/README.md)
 This project focuses on **analyzing the experimental data** collected from the `niryo_experiment` project. It generates graphs and insights that are used to compare and evaluate the performance of different motion planning algorithms.
-
-<p align="center">
+<!-- <p align="center">
     <img src="motion_analysis/results/ceiling/planning_time.jpg" alt="Planning Time Comparison" width="400"/>
     <img src="motion_analysis/results/ceiling/pca_trajectory.jpg" alt="PCA 2D Visualization" width="400"/>
-</p>
+</p> -->
+| ![Planning Time Comparison](motion_analysis/results/ceiling/planning_time.jpg)<br>**Planning Time Comparison**<br>![Path Length Comparison](motion_analysis/results/ceiling/path_length_A.jpg)<br>**Path Length Comparison** | ![PCA 2D Visualization](motion_analysis/results/ceiling/pca_trajectory.jpg)<br>**PCA 2D Visualization of Trajectories** |
+|:--:|:--:|
+
 
 ### 3. [`c_space_viz`](c_space_viz/README.md)
 This project aims to provide visual representations of motion planning algorithms in a simple 2D environment using a 2-DOF robot. These visualizations are intended to help readers of the thesis better understand the concepts and practical applications of these algorithms. The output figures are used to introduce motion planning algorithms in **chapter 2** of the thesis.
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; justify-items: center;">
 
-  <figure style="margin: 0; text-align: center;">
-    <img src="c_space_viz/images/rrt_graph.jpg" width="400"/>
-    <figcaption>RRT Graph</figcaption>
-  </figure>
 
-  <figure style="margin: 0; text-align: center;">
-    <img src="c_space_viz/images/est_graph.jpg" width="400"/>
-    <figcaption>EST Graph</figcaption>
-  </figure>
-
-  <figure style="margin: 0; text-align: center;">
-    <img src="c_space_viz/images/prm_graph.jpg" width="400"/>
-    <figcaption>PRM Graph</figcaption>
-  </figure>
-
-  <figure style="margin: 0; text-align: center;">
-    <img src="c_space_viz/media/rrt_animation.gif" width="400"/>
-    <figcaption>RRT Animation</figcaption>
-  </figure>
-
-  <figure style="margin: 0; text-align: center;">
-    <img src="c_space_viz/media/est_animation.gif" width="400"/>
-    <figcaption>EST Animation</figcaption>
-  </figure>
-
-  <figure style="margin: 0; text-align: center;">
-    <img src="c_space_viz/media/prm_animation.gif" width="400"/>
-    <figcaption>PRM Animation</figcaption>
-  </figure>
-
-</div>
+| ![RRT Graph](c_space_viz/images/rrt_graph.jpg) <br> **RRT Graph** | ![EST Graph](c_space_viz/images/est_graph.jpg) <br> **EST Graph** | ![PRM Graph](c_space_viz/images/prm_graph.jpg) <br> **PRM Graph** |
+|:--:|:--:|:--:|
+| ![RRT Animation](c_space_viz/media/rrt_animation.gif) <br> **RRT Animation** | ![EST Animation](c_space_viz/media/est_animation.gif) <br> **EST Animation** | ![PRM Animation](c_space_viz/media/prm_animation.gif) <br> **PRM Animation** |
 
 ## Additional Content
 - [<u>**`data.zip`**</u>](motion_analysis/data.zip): This file is located in the `motion_analysis` project. It contains the experimental data collected from the `niryo_experiment` project. It is used for analysis in the `motion_analysis` project. Our analysis is based on this data and supports the findings presented in the thesis.
