@@ -2,6 +2,12 @@
 
 This folder contains three projects that are part of my bachelor thesis submission. Each project contributes to the thesis in a unique way, as described below. For more detailed information about each project, please refer to their respective `README.md` files.
 
+## Download 
+To download the latest version of the project, you can use the following command:
+```bash
+git clone https://gitlab.fit.cvut.cz/kawasrik/bie-bap-attachments.git
+```
+
 ## Attachment Overview
 - [**`README.md`**](README.md): This file provides an overview of the projects and their contributions to the thesis.
 - [**`niryo_experiment`**](niryo_experiment/README.md): This project involves conducting quantitative experiments using a Niryo robot to gather data for comparing motion planning algorithms. Please refer to the [<u>`niryo_experiment/README.md` file</u>](niryo_experiment/README.md).
