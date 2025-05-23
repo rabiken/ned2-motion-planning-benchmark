@@ -72,7 +72,7 @@ For each example, we provide the result on test scene `ceiling` with 8 tested al
 2. Prepare your motion data in the supported format.
 3. Run the analysis script:
     ```bash
-    python3 analyze_motion.py --input data/sample_motion_data.csv
+    python3 generate_result.py
     ```
 4. View the results in the output directory `results`.
 
