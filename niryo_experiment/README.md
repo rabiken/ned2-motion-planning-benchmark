@@ -6,11 +6,8 @@ The output data is supposed to be analyzed in the project [**<u>motion_analysis<
 
 The implementation is based on the **ROS noetic stack** using **MoveIt! C++ API**, which enables the execution of motion planning algorithms provided by **OMPL** on real robotic environment.
 
-## Features
-- Execute selected motion planning algorithm and test scene.
-- Record the planned and executed motion in a file at the selected location.
-- Easy configuration of testing parameters via a yaml file.
-    Please click [***<u>HERE (demo_video.mp4)</u>***](media/demo_video.mp4) to watch the demo video **with sound**!!
+## Demo Video
+Please click [***<u>HERE (demo_video.mp4)</u>***](media/demo_video.mp4) to watch the demo video **with sound**!!
 
 <p align="center">
     <figure align="center">
@@ -18,6 +15,17 @@ The implementation is based on the **ROS noetic stack** using **MoveIt! C++ API*
         <figcaption><b>Demonstration of the Automated Testing for Ned2:</b> The <i>Default PRM Planner</i> is used and <i>three iterations</i> of test on <i>test scene 4</i> were conducted in this demo. Please check the video with sound!</figcaption>
     </figure>
 </p>
+
+## Features
+- Execute selected motion planning algorithm and test scene.
+- Record the planned and executed motion in a file at the selected location.
+- Easy configuration of testing parameters via a yaml file.
+
+<p align="center">
+    <figure align="center">
+        <img src="media/flowchart.png" alt="Flowchart of the Automated Testing" width="600">
+        <figcaption><b>Flowchart of the Automated Testing</b></figcaption>
+    </figure>
 
 - Launch RViz with the virtual Ned2.
 <p align="center">
