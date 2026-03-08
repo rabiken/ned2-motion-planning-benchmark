@@ -1,4 +1,4 @@
-# Bachelor Thesis Attachments
+# Comparative Study of Motion Planning Algorithms on Ned2 Robot Arm
 
 This folder contains three projects that are part of my bachelor thesis submission. Each project contributes to the thesis in a unique way, as described below. For more detailed information about each project, please refer to their respective `README.md` files.
 
