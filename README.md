@@ -13,7 +13,7 @@ git clone https://gitlab.fit.cvut.cz/kawasrik/bie-bap-attachments.git
 - [**`niryo_experiment`**](niryo_experiment/README.md): This project involves conducting quantitative experiments using a Niryo robot to gather data for comparing motion planning algorithms. Please refer to the [<u>`niryo_experiment/README.md` file</u>](niryo_experiment/README.md).
 - [**`motion_analysis`**](motion_analysis/README.md): This project focuses on analyzing the experimental data collected from the `niryo_experiment` project. It generates graphs and insights that are used to compare and evaluate the performance of different motion planning algorithms. Please refer to the [<u>`motion_analysis/README.md` file</u>](motion_analysis/README.md).
 - [**`c_space_viz`**](c_space_viz/README.md): This project provides visual representations of motion planning algorithms in a simple 2D environment using a 2-DOF robot. These visualizations are intended to help readers of the thesis better understand the concepts and practical applications of these algorithms. Please refer to the [<u>`c_space_viz/README.md` file</u>](c_space_viz/README.md).
-- [**`thesis`**](thesis/): This folder contains the final version of [<u>my bachelor thesis</u>](thesis/thesis.pdf), and [<u>zipped source files</u>](thesis/thesis_src.zip) of the thesis in LaTex format.
+- [**`thesis`**](thesis/): This folder contains the final version of [<u>my bachelor thesis</u>](thesis/thesis.pdf), and [<u>zipped source files</u>](thesis/thesis_src.zip) of the thesis in LaTex format.This also contains [<u>presentation slides</u>](thesis/presentation.pdf) used for the thesis defense.
 
 ## Projects Overview
 ### 1. [`niryo_experiment`](niryo_experiment/README.md)
